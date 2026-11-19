@@ -1,0 +1,58 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+eggs/
+wheels/
+.installed.cfg
+
+# --- 虚拟环境 (uv) ---
+.venv/
+venv/
+env/
+
+# --- 环境变量 / 密钥 ---
+.env
+.env.*
+!.env.example
+
+# --- 缓存与工具 ---
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.dmypy.json
+.coverage
+htmlcov/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- LangGraph 本地运行时 ---
+.langgraph_api/
+*.pckl
+
+# --- SQLite 数据库 / 运行时产物 ---
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# --- IDE ---
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# --- 日志与临时文件 ---
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
